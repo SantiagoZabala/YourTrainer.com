@@ -1,0 +1,281 @@
+* {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.principal-pag {
+
+    background-image: url("../img/corredor.png");
+    background-position: right;
+    height: 400px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    margin: 0px 10px 150px 10px;
+
+}
+
+#titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 75px;
+    margin: 120px 0px 10px 20px;
+    color: #000;
+    text-shadow: 30px 15px 5px rgb(189, 189, 189);
+}
+
+#titulo span {
+    font-size: 55px;
+}
+
+.logoinicio {
+    border-radius: 50%;
+    margin: 0px;
+    padding: 15px;
+    width: 90px;
+    height: 90px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 10px 5px;
+    background-color: darkgrey;
+    background-image: linear-gradient(to bottom,black, white);
+    background-size: cover;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header .header_logo {
+    height: 120px;
+    width: 200px;
+    filter: none;
+}
+
+header .header_logo img {
+    margin-top: 0;
+    top: 0;
+    width: 95px;
+    position: relative;
+}
+
+header .header_menu {
+    display: none;
+    position: fixed;
+
+    top: 20px;
+    left: 0;
+    width: 200%;
+    height: 90%;
+}
+
+
+header .header_menu ul {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+}
+
+header .header_menu {
+    display: initial;
+    position: inherit;
+}
+
+.header_menu a {
+    font-size: 24px;
+    color: #f1f1f1;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.header_menu a:hover {
+    font-weight: bold;
+    text-shadow: 3px 3px 5px lime;
+}
+
+.footer {
+    font-size: 1rem;
+    font-family: serif;
+    background-color: #000;
+    color: #f1f1f1;
+    text-align: center;
+    bottom: 0;
+    margin-top: auto;
+    padding: 30px;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 19px;
+    margin: 0;
+    padding-bottom: 70px;
+}
+
+.Testimonios {
+    display: flex;
+    background-color: rgb(216, 216, 216);
+    background-image: linear-gradient(to left, white,lightgray,white);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    justify-content: center;
+    font-weight: normal;
+    padding: 10px;
+
+}
+
+.persona {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 100px 20px 20px 20px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    column-gap: 50px;
+    margin: 50px 70px;
+}
+
+section div {
+    background-color: rgb(236, 236, 236);
+    box-shadow: 0px 0px 20px 0px gray;
+    padding: 0px 25px;
+    margin: 0;
+}
+
+section p {
+    text-align: justify;
+}
+
+.Pcentrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: normal;
+}
+
+.noticias p {
+    margin: 0;
+    padding: 20px;
+}
+
+.noticias img {
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+.ntitulos {
+    background-color: rgba(224, 223, 223, 0.815);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.titulos {    
+    background-image: linear-gradient(to left, white,lightgray,white);
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.entrenamientos {
+    margin: 20px;
+}
+
+.tde li a {
+    font-size: 30px;
+    background-color: rgb(155, 155, 155);
+    color: #f1f1f1;
+    text-decoration: none;
+    margin: 20px;
+    padding: 5px;
+    border: 1px black groove;
+    box-shadow: 5px 3px 10px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.tde a:hover {
+    border: none;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px lime;
+}
+
+.pdescripcion {
+    margin: 20px 0px;
+}
+
+.productosmuestra {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.prodimg {
+    width: 90%;
+    height: 300px;
+    box-shadow: 1px 1px 20px black;
+}
+
+.prodimg:hover{
+    box-shadow: 1px 1px 20px lime;
+}
+
+form {
+    display: block;
+    background-image: url("../img/Traino.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;
+    padding: 30px;
+    width: 94%;
+    height: 1000px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+label {
+    display: block;
+}
+
+input, textarea{
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+legend {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    padding:0px 30px;
+    margin-top: 30px;
+    text-shadow: 2px 2px 2px rgb(110, 110, 110);
+}
+
+
+.enviar {
+    font-size: 30px;
+    margin: 10px 50px;
+    padding: 10px 40px;
+    box-shadow: 0px 0px 20px 1px black;
+}
